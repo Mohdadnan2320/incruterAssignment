@@ -119,8 +119,10 @@ exports.forgotPassword = async (req, res) => {
         }
 
         const user = await User.findOne({email});
+        console.log(user)
+
         if(!user) return res.status(404).json({error: "User not found"});
-        if(user.phone?.toString() !== phone) return res.status(404).json({error: "Invalid phone number"});
+        if(user.phone !== phone.toString()) return res.status(404).json({error: "Invalid phone number"});
 
         if(user.securityAnswer !== securityAnswer){
             return res.status(400).json({ error: "Inncorrect security answer." });
