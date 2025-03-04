@@ -26,7 +26,6 @@ This is a **User Authentication System** built using **Node.js, Express, and Mon
 
 ## 📂 Folder Structure
 ```
-📦 backend
  ┣ 📂 database
  ┃ ┗ 📜 db.js           # Database connection
  ┣ 📂 routes
@@ -48,7 +47,6 @@ This is a **User Authentication System** built using **Node.js, Express, and Mon
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/Mohdadnan2320/incruterAssignment.git
-cd backend
 ```
 
 ### 2️⃣ Install Dependencies
