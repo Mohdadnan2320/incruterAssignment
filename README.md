@@ -26,7 +26,7 @@ This is a **User Authentication System** built using **Node.js, Express, and Mon
 
 ## 📂 Folder Structure
 ```
-📦 user-authentication-system
+📦 backend
  ┣ 📂 database
  ┃ ┗ 📜 db.js           # Database connection
  ┣ 📂 routes
@@ -47,8 +47,8 @@ This is a **User Authentication System** built using **Node.js, Express, and Mon
 ## 🔧 Setup Instructions
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/user-authentication-system.git
-cd user-authentication-system
+git clone https://github.com/Mohdadnan2320/incruterAssignment.git
+cd backend
 ```
 
 ### 2️⃣ Install Dependencies
